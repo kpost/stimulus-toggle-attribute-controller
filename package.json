@@ -1,0 +1,21 @@
+{
+  "name": "stimulus-toggle-attribute-controller",
+  "version": "1.0.0",
+  "description": "Stimulus controller to change values in html attributes",
+  "main": "dist/stimulus-toggle-attribute-controller.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --platform=node --outfile=dist/stimulus-toggle-attribute-controller.js"
+  },
+  "keywords": [
+    "stimulus",
+    "toggle",
+    "html",
+    "attributes"
+  ],
+  "author": "Kobus Post <me@kobuspost.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.1",
+    "esbuild": "^0.17.11"
+  }
+}
