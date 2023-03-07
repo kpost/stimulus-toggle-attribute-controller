@@ -13,6 +13,8 @@
     "attributes"
   ],
   "author": "Kobus Post <me@kobuspost.dev>",
+  "homepage": "https://github.com/kpost/stimulus-toggle-attribute-controller",
+  "repository": "git@github.com:kpost/stimulus-toggle-attribute-controller.git",
   "license": "MIT",
   "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
